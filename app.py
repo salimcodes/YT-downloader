@@ -1,7 +1,6 @@
 from flask import Flask, redirect, url_for, request, render_template, session
 from pytube import YouTube
 import os
-
 import requests
 
 app = Flask(__name__)
