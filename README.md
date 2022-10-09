@@ -46,7 +46,7 @@ video = yt.streams.filter(only_audio = True).first()
 print("Enter the destination (leave blank for current directory)")
 destination = str(input(">> ")) or '.'
 ```
-## Step five: Downloading and saving the file
+
 ```
 #download the file
 out_file = video.download(output_path = destination)
